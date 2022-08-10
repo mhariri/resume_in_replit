@@ -2,22 +2,224 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Mohsen Hariri - Resume</title>
+
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="The Resume of Mohsen Hariri." />
+    <meta charset="UTF-8">
+    <base target="_blank">
+
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href='//fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
 </head>
 
-<body>
-  Hello world
-  <script src="script.js"></script>
-  
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+<body id="top">
+    <div id="cv" class="instaFade">
+        <div class="mainDetails">
+            <div id="headshot" class="quickFade">
+                <img src="headshot.jpg" alt="Mohsen Hariri" />
+            </div>
+
+            <div id="name">
+                <h1 class="quickFade delayTwo">Mohsen Hariri</h1>
+                <h2 class="quickFade delayThree">Software Engineer</h2>
+            </div>
+
+            <div id="contactDetails" class="quickFade delayFour">
+                <ul>
+                    <li>e: <a href="mailto:m.hariri@gmail.com">m.hariri@gmail.com</a></li>
+                    <li>w: <a href="http://www.mhariri.info">www.mhariri.info</a></li>
+                    <li class="links">
+                        <a href="https://www.linkedin.com/in/mohsenhariri/"><img class="linkedin" src="linkedin.svg"></a>
+                        <a href="https://github.com/mhariri"><img class="github" src="github.svg"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div id="mainArea" class="quickFade delayFive">
+            <section>
+                <article>
+                    <div class="sectionTitle">
+                        <h1>Personal Profile</h1>
+                    </div>
+
+                    <div class="sectionContent">
+                        <p>
+                            A passionate software engineer with 15+ years of experience in product development, technical team leadership and system architecture.
+                        </p>
+                        <p>
+                            The hallmark of my work is to find key success factors in my teams and projects, and to take initiative and lead in improving those aspects to always end up with a happy customer while spending the least effort.
+                        </p>
+                    </div>
+                </article>
+                <div class="clear"></div>
+            </section>
+
+
+            <section>
+                <div class="sectionTitle">
+                    <h1>Work Experience</h1>
+                </div>
+
+                <div class="sectionContent">
+                    <article>
+                        <h2>Staff Software Engineer at Article</h2>
+                        <p class="subDetails">April 2022 – Present</p>
+                        <p>Group tech lead for the Warehousing, Transport and Fulfillment Logic business domains.
+                            The job includes both strategic and executive aspects. 
+                            Responsible for coaching tech leads, drive technical alignment and improve
+                            interactions b/w product and engineering.
+                        </p>
+                        <p>Highlight of my contributions and achievements:</p>
+                        <ul>
+                            <li>
+                                Coach ~20 developers by pairing, code reviews and feedbacks
+                            </li>
+                            <li>
+                                Helping warehouse team to decouple their domain into a microservice, leveraging the lessons learned in reservation decoupling
+                            </li>
+                            <li>
+                                Lead article-in-a-box: run a set of core Article's microservices on a single EC2 to bring accessibility and enable quick experimentation to engineers
+                            </li>
+                            <li>
+                                Support Data team in bringing Kafka as a datasource to our data warehouse, enabling visibility into new metrics
+                            </li>
+                        </ul>
+
+                        </article>
+                    <article>
+                        <h2>Senior Software Engineer/Tech Lead at Article</h2>
+                        <p class="subDetails">August 2021 – March 2022</p>
+                        <p>Working under Supply Chain tech unit, 
+                            focusing on reservations/fulfillment logic.</p>
+                            <p>Planned and executed decoupling of reservation logic
+                                out of a complex monolith into a microservice,
+                                re-architecting it to deliver vastly different features.
+                            </p>
+                        <ul>
+                            <li>
+                                Decreasing p99 of ETA calculations from 1s to 50ms
+                            </li>
+                            <li>
+                                Moving out of monolith, decreased cycle time from 2+ hours to ~15 minutes
+                            </li>
+                            <li>
+                                Move from a single availability zone into an active-active multi-zone deployment
+                            </li>
+                        </ul>
+
+                        <p>Technologies: Java, AWS, ECS, microservices.</p>
+                    </article>
+                    <article>
+                        <h2>Senior Software Engineer at Spotify</h2>
+                        <p class="subDetails">August 2020 – July 2021</p>
+                        <p>Working in customer service business unit, 
+                            providing customer care agents with the tools 
+                            to give them all they need to know about an Spotify customer.</p>
+                            <p>We maintain services that handle hundreds of events per 
+                                second and store terabytes of data and require multi-region 
+                                active-active deployments.
+                            </p>
+                        <p>Technologies: Java, Google Cloud, Kubernetes, microservices.</p>
+                    </article>
+                    <article>
+                        <h2>Senior R&D Engineer at IPsoft</h2>
+                        <p class="subDetails">August 2014 – July 2020</p>
+                        <p>The company's vision is to automate all processes in IT infrastructure and business operations, using artificial intelligence, cognitive and autonomic solutions in order to free engineers and technologists to focus on creative
+                            endeavors and innovation.</p>
+                            <ul>
+                                <li>
+                                    Build a performance measurement framework for Amelia, leading that from prototype to business value. Resulted in 12x speed up in startup time of one component and 80x speed up in a critical path in Amelia’s processing.
+                                    <br/>
+                                    <span style="font-weight: bold;">Technologies:</span> Java flight recorder, perf, flamegraphs, flamescope, Docker
+                                </li>
+                            </ul>
+                        </p>
+
+                    </article>
+
+                    <article>
+                        <h2>System Architect at Seamless Distribution AB</h2>
+                        <p class="subDetails">July 2013 - July 2014</p>
+                        <p>
+                            Continue to lead the transaction intensive system at Seamless, wearing the architect hat.
+                            <br />
+                            <span style="font-weight: bold;">Skills:</span> Designing Resource-oriented RESTful API, pair-programming, couching junior engineers
+                        </p>
+                    </article>
+
+                    <article>
+                        <h2>Developer/Tech Lead at Seamless Distribution AB</h2>
+                        <p class="subDetails">July 2009 - July 2013</p>
+                        <p>
+                            Designing and managing a financial system for mobile operators with performance requirements as high as 1000+ monetary transactions per second. Most popular technologies in Seamless are Java, MySQL and zookeeper all running under Linux systems.
+                        </p>
+                    </article>
+                    <article>
+                        <h2>Co-founder at Parspooyesh</h2>
+                        <p class="subDetails">April 2003 - August 2008</p>
+                        <p>
+                            Co-founded Parspooyesh company together with two of my friends. The startup grew to more than 20 software developers.
+                            <br />
+                            <span style="font-weight: bold;">Technologies:</span> Linux, Python, PHP, PostgreSQL
+                        </p>
+                    </article>
+                    <article>
+                        <h2>Software Developer at AVAPajoohesh</h2>
+                        <p class="subDetails">August 2002 - March 2003</p>
+                        <p>
+                            <span style="font-weight: bold;">Technologies:</span> MS Visual C++, SQL Server, Java.
+                        </p>
+                    </article>
+                </div>
+                <div class="clear"></div>
+            </section>
+
+            <section>
+                <div class="sectionTitle">
+                    <h1>Entrepreneurial Activity</h1>
+                </div>
+
+                <div class="sectionContent">
+                    <article>
+                        <h2>2016 - vphone</h2>
+                        <p>Place and receive calls on two numbers using one phone. (discontinued)</p>
+
+                    </article>
+                    <article>
+                        <h2>2014 - Shoppistant</h2>
+                        <p>Compare products in the store. <a href="http://www.shoppistant.com/">www.shoppistant.com</a></p>
+
+                    </article>
+                    <article>
+                        <h2>2003 - ParsPooyesh</h2>
+                        <p>Creating ISP accounting software. <a href="http://parspooyesh.com/">www.parspooyesh.com</a></p>
+
+                    </article>
+                </div>
+                <div class="clear"></div>
+            </section>
+
+            <section>
+                <div class="sectionTitle">
+                    <h1>Education</h1>
+                </div>
+
+                <div class="sectionContent">
+                    <article>
+                        <h2>KTH (Royal Institute of Technology) University</h2>
+                        <p class="subDetails">August 2008 - May 2010</p>
+                        <p>Master's Degree of Software Engineering of Distributed Systems</p>
+                    </article>
+                </div>
+                <div class="clear"></div>
+            </section>
+
+        </div>
+    </div>
 </body>
 
 </html>
